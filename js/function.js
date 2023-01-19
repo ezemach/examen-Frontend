@@ -11,8 +11,9 @@ let cantidadTickets = document.getElementById("cantidadTickets");
 let categoria       = document.getElementById("categoria");
 
 function total_a_pagar()
+
 {
- alert("Prueba")
+ alert("Prueba");
  let totalValorTickets=(cantidadTickets.value)*valorTicket;
 
     if(categoria.value==0)
